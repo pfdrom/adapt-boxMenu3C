@@ -1,0 +1,68 @@
+.boxmenu3C {
+  .l-container-responsive(@max-width);
+  max-width: inherit;
+  .l-container-padding(@menu-padding-ver, @menu-padding-hoz);
+
+  &__header{
+    background-color: #595959;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  &.has-bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+
+  &__header.has-bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+
+  &__header-inner {
+    .l-container-padding(@menu-header-padding-ver, @menu-header-padding-hoz);
+  }
+
+  &__title {
+    margin-bottom: @menu-title-margin;
+    .menu-title;
+    color: white;
+  }
+
+  &__subtitle {
+    margin-bottom: @menu-subtitle-margin;
+    .menu-subtitle;
+    color: white;
+  }
+
+  &__body {
+    margin-bottom: @menu-body-margin;
+    .menu-body;
+  }
+
+  &__instruction {
+    margin-bottom: @menu-instruction-margin;
+    .menu-instruction;
+  }
+
+  &__body a,
+  &__instruction a {
+    .link-text;
+  }
+
+  &__item-container{
+    margin-top: -20px;
+  }
+
+  &__header-inner {
+    .l-container-responsive(@device-width-large);
+  }
+
+  &__item-container &__item-container-inner {
+    display: flex;
+    flex-wrap: wrap;
+    .l-container-responsive(@device-width-large);
+  }
+}

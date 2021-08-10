@@ -1,0 +1,17 @@
+{
+  "name": "adapt-contrib-boxMenu3C",
+  "version": "1.0.8",
+  "framework": ">=5.7",
+  "homepage": "",
+  "issues": "",
+  "menu": "boxMenu",
+  "displayName": "Box Menu 3C",
+  "description": "A 3 elements per row menu",
+  "main": "js/adapt-contrib-boxMenu3C.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-menu"
+  ],
+  "license": "GPL-3.0",
+  "targetAttribute": "_boxMenu3C"
+}
